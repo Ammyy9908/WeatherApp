@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 class Weather():
     def __init__(self,city):
-        self.url = 'http://api.openweathermap.org/data/2.5/weather?q={}&appid=ec7e43c5d58ff550665a49bf4e8fd163'.format(city)
+        self.url = 'http://api.openweathermap.org/data/2.5/weather?q={}&appid=API_LEY'.format(city)
 
     def get_weather(self):
         data = dict()
